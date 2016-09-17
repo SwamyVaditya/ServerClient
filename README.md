@@ -6,8 +6,6 @@ By default, the server runs on port 1234 and keeps listening for incoming connec
 If the user clicks “Restart” button on the server window, the server will restart. 
 ##Client
 When the user runs the client application, it presents the user with a windows form. User can enter IP address and port in port field as required by the server application. By default, this field contains ‘localhost:1234”.  User can enter Person Ids from 1 to 10 and press “Send Request” button. The client application then establishes connection with the server, sends data to the server and gets the Person details in xml format and displays xml data in the “Response” field. In case of erroneous cases, it will show error message in the message box.
-##Source Code
-The source code can be downloaded from https://github.com/SwamyVaditya/ServerClient github repository.
 ##Installation
 Download ServerClientInstall.rar file from https://github.com/SwamyVaditya/ServerClient github repository. After unzipping, the folder will contain two separate folders called server and client. Run setup file from those folders and both client and server windows forms applications will be installed on your machine.
 ##Usage
